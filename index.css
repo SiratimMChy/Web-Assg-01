@@ -84,7 +84,7 @@ nav ul {
     align-items: center;
     padding: 40px 60px;
     min-width: auto;
-    background-color: hsl(0, 0%, 100%);
+    background-color: rgb(247, 247, 247);
 }
 
 .action-left {
@@ -146,4 +146,45 @@ nav ul {
     padding-left: 60px;
     padding-right: 60px;
     box-sizing: border-box;
+}
+
+.users-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #e3e8ff;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+
+.u-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+}
+
+.users-status {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.status h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #3f48cc;
+    margin-bottom: 8px;
+}
+
+.status p {
+    font-size: 16px;
+    color: #555;
 }
