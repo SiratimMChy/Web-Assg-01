@@ -35,9 +35,10 @@ nav {
 }
 
 .nav-title {
-    font-weight: 700;
-    font-size: 24px;
-    color: #3f48cc;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #513eff;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav ul li {
@@ -55,8 +56,9 @@ nav ul {
 
 }
 
+/*Banner*/
 .hero {
-    padding: 158px 20px 200px;
+    padding: 120px 20px 140px;
 }
 
 .hero h1 {
@@ -69,23 +71,25 @@ nav ul {
 }
 
 .btn {
-    background-color: #3f48cc;
+    background-color: #513eff;
     color: white;
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
 }
+
 .btn:hover {
     background-color: #0099ff;
 }
 
+/*Action Section*/
 .action-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 60px;
+    padding: 60px 60px;
     min-width: auto;
     background-color: rgb(249, 251, 255);
 }
@@ -109,6 +113,7 @@ nav ul {
     margin-bottom: 24px;
     color: #333;
     text-align: left;
+     font-family: 'Raleway', sans-serif;
 }
 
 .action-right {
@@ -120,15 +125,15 @@ nav ul {
 }
 
 .action-right img {
-    width: 100%;
-    max-width: 400px;
+    width: 90%;
+    max-width: 520px;
     text-align: center;
     height: auto;
-    border-radius: 15px;
+    border-radius: 18px;
 }
 
 .action-section .ac-btn {
-    background-color: #3f48cc;
+    background-color: #513eff;
     color: white;
     width: auto;
     max-width: 229px;
@@ -142,6 +147,7 @@ nav ul {
     text-decoration: none;
     margin-top: 20px;
 }
+
 .ac-btn:hover {
     background-color: #0099ff;
 }
@@ -154,6 +160,7 @@ nav ul {
     box-sizing: border-box;
 }
 
+/*User Section*/
 .users-section {
     background-color: #f3fdff;
     padding: 60px 20px;
@@ -187,15 +194,17 @@ nav ul {
 .status h3 {
     font-size: 40px;
     font-weight: 700;
-    color: #3f48cc;
+    color: #513eff;
     margin-bottom: 8px;
 }
 
 .status p {
     font-size: 16px;
     color: #555;
+     font-family: 'Raleway', sans-serif;
 }
 
+/*Contact Section*/
 .contact-section {
     background-color: #ffffff;
     padding: 80px 20px;
@@ -258,7 +267,7 @@ nav ul {
 }
 
 .c-btn {
-    background-color: #3f48cc;
+    background-color: #513eff;
     color: white;
     padding: 14px;
     border: none;
@@ -272,7 +281,7 @@ nav ul {
     background-color: #0099ff;
 }
 
-
+/*Review Section*/
 .review {
     padding: 4rem 2rem;
     background-color: #f3fdff;
@@ -293,7 +302,7 @@ nav ul {
 
 .card-container {
     display: flex;
-    background-color: #f5f7ff;
+    background-color: #f3fdff;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
@@ -310,6 +319,9 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
+}
+.card:hover{
+     background: #c9f2fff5;
 }
 
 .card h3 {
@@ -357,4 +369,108 @@ nav ul {
 .user-info span {
     font-size: 0.85rem;
     color: #777;
+}
+
+/*optional section*/
+.optional-section {
+    background-color: #f9fafe;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.optional-section h2 {
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.optional-section p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 20px;
+     font-family: 'Raleway', sans-serif;
+}
+
+.optional-image img {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.optional-button {
+    background-color: #513eff;
+    color: white;
+    width: auto;
+    max-width: 229px;
+    height: auto;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.optional-button:hover {
+     background-color: #0099ff;
+}
+
+/*footer*/
+.footer {
+    background-color: #f3fdff;
+    padding: 40px 20px 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #6e6e96;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    color: #513eff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-logo p {
+    max-width: 600px;
+    margin: 0 auto 36px;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #8787bb;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0011ff;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-bottom:hover {
+    color: #0011ff;
 }
