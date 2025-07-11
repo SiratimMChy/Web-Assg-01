@@ -265,3 +265,90 @@ nav ul {
 .c-btn:hover {
     background-color: #3038aa;
 }
+
+
+.review {
+    padding: 4rem 2rem;
+    background-color: #eaeeed;
+    text-align: center;
+}
+
+.review h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.review h3 {
+    text-align: left;
+    justify-content: left;
+}
+
+.card-container {
+    display: flex;
+    background-color: #eaeeed;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.stars {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.star-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    gap: 1rem;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.user-info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info span {
+    font-size: 0.85rem;
+    color: #777;
+}
