@@ -40,6 +40,9 @@ nav {
     color: #513eff;
     font-family: 'Raleway', sans-serif;
 }
+.nav-title span {
+      color:black;
+  }
 
 nav ul li {
     margin: 0;
