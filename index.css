@@ -477,3 +477,91 @@ nav ul {
 .footer-bottom:hover {
     color: #0011ff;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .action-section {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .action-left, .action-right {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .action-section {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .action-left, .action-right {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .users-status {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .c-left, .c-right {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .btn, .ac-btn, .optional-button, .c-btn {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+}
