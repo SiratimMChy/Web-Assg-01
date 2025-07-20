@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #513eff;g
+    --primary-color: #513eff;
     --secondary-color: #0099ff;
     --light-bg: #f3fdff;
     --dark-bg: #000;
@@ -7,14 +7,8 @@
     --text-muted: #555;
     --font-primary: 'Open Sans', sans-serif;
     --font-secondary: 'Raleway', sans-serif;
-
+    
 }
-
-html,
-body {
-    overflow-x: hidden;
-}
-
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -57,10 +51,9 @@ nav {
     color: #513eff;
     font-family: 'Raleway', sans-serif;
 }
-
 .nav-title span {
-    color: black;
-}
+      color:black;
+  }
 
 nav ul li {
     margin: 0;
@@ -109,14 +102,16 @@ nav ul {
 
 /*Action Section*/
 .action-section {
-    display: flex;
-    justify-content: space-between;
-    background-size: cover;
-    align-items: center;
-    padding: 60px 60px;
-    max-width: auto;
-    overflow: hidden;
-    background-color: rgb(249, 251, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 100%; 
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: rgb(249, 251, 255);
 }
 
 .action-left {
@@ -138,7 +133,7 @@ nav ul {
     margin-bottom: 24px;
     color: #333;
     text-align: left;
-    font-family: 'Raleway', sans-serif;
+     font-family: 'Raleway', sans-serif;
 }
 
 .action-right {
@@ -156,7 +151,6 @@ nav ul {
     border-radius: 18px;
     display: block;
 }
-
 .action-section .ac-btn {
     background-color: #513eff;
     color: white;
@@ -187,12 +181,14 @@ nav ul {
 
 /*User Section*/
 .users-section {
-    background-color: #f3fdff;
-    padding: 60px 20px;
-    text-align: center;
-    max-height: 1480px;
-    overflow: hidden;
+  background-color: #f3fdff;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 
 .container {
     max-width: 1000px;
@@ -227,14 +223,18 @@ nav ul {
 .status p {
     font-size: 16px;
     color: #555;
-    font-family: 'Raleway', sans-serif;
+     font-family: 'Raleway', sans-serif;
 }
 
 /*Contact Section*/
 .contact-section {
-    background-color: #ffffff;
-    padding: 80px 20px;
+  background-color: #ffffff;
+  padding: 80px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 
 .c-container {
     max-width: 1100px;
@@ -348,9 +348,8 @@ nav ul {
     justify-content: space-between;
     text-align: left;
 }
-
-.card:hover {
-    background: #c9f2fff5;
+.card:hover{
+     background: #c9f2fff5;
 }
 
 .card h3 {
@@ -402,9 +401,13 @@ nav ul {
 
 /*optional section*/
 .optional-section {
-    background-color: #f9fafe;
-    padding: 40px 20px;
-    text-align: center;
+  background-color: #f9fafe;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: var(--text-main, #1a1a1a);
 }
 
 .optional-section h2 {
@@ -417,7 +420,7 @@ nav ul {
     font-size: 15px;
     color: #555;
     margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
+     font-family: 'Raleway', sans-serif;
 }
 
 .optional-image img {
@@ -445,7 +448,7 @@ nav ul {
 }
 
 .optional-button:hover {
-    background-color: #0099ff;
+     background-color: #0099ff;
 }
 
 /*footer*/
@@ -481,7 +484,11 @@ nav ul {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    list-style: none;       
+    padding: 0;             
+    margin: 0 auto;
 }
+
 
 .footer-links a {
     text-decoration: none;
@@ -511,8 +518,7 @@ nav ul {
         padding: 40px 20px;
     }
 
-    .action-left,
-    .action-right {
+    .action-left, .action-right {
         width: 100%;
         padding: 20px 0;
     }
@@ -534,8 +540,7 @@ nav ul {
         padding: 30px 20px;
     }
 
-    .action-left,
-    .action-right {
+    .action-left, .action-right {
         width: 100%;
         padding: 20px 0;
     }
@@ -550,8 +555,7 @@ nav ul {
         gap: 20px;
     }
 
-    .c-left,
-    .c-right {
+    .c-left, .c-right {
         margin: 20px 0;
         width: 100%;
     }
@@ -576,10 +580,7 @@ nav ul {
         font-size: 32px;
     }
 
-    .btn,
-    .ac-btn,
-    .optional-button,
-    .c-btn {
+    .btn, .ac-btn, .optional-button, .c-btn {
         padding: 10px 16px;
         font-size: 14px;
     }
