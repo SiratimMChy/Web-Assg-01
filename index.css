@@ -91,6 +91,7 @@ nav ul {
     border: none;
     border-radius: 8px;
     font-weight: 700;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -103,9 +104,10 @@ nav ul {
 .action-section {
     display: flex;
     justify-content: space-between;
+    background-size: cover;
     align-items: center;
     padding: 60px 60px;
-    min-width: auto;
+    max-width: auto;
     background-color: rgb(249, 251, 255);
 }
 
